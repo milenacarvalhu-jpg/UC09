@@ -1,0 +1,28 @@
+package JAVA.Aula03;
+
+import java.util.Scanner;
+
+public class matematica {
+
+    public static void main(String[] args) {
+        // area circulo: PI r^2
+
+    Scanner entradausuario = new Scanner(System.in);
+    double x;
+    double raio;
+    double diam;
+    double quad = Math.pow(2.0, 3.0);
+    double resultado;  
+
+     x = Math.PI;
+
+    System.out.println("Digite o diamero");  
+    diam = entradausuario.nextDouble();
+    raio = diam/2;
+    resultado=(Math.pow(raio, 2.0) * x);
+    System.out.println(resultado);
+
+    }
+
+
+}
