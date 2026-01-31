@@ -1,0 +1,17 @@
+package Lista;
+
+public class Atividade12 {
+
+     public static void imprimirsoma() {
+
+    int a = 10;
+    int b = 20;
+ System.out.println(a + b);
+    }
+
+    public static void main(String[] args) {
+        imprimirsoma();
+
+    }
+
+}
