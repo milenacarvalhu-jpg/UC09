@@ -1,0 +1,16 @@
+package Lista;
+
+public class Atividade11 {
+
+    public static void imprimirLinha() {
+
+        System.out.println("-------------------");
+
+    }
+
+    public static void main(String[] args) {
+        imprimirLinha();
+
+    }
+
+}
