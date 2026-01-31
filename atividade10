@@ -1,0 +1,19 @@
+package Lista;
+
+import java.util.Scanner;
+
+public class Atividade10 {
+
+    
+    public static void main(String[] args) {
+        
+    double numero;
+    Scanner entrada = new Scanner(System.in);
+
+System.out.println(" Digite um número com ponto e virgula ");
+numero = entrada.nextDouble();
+System.out.printf( " Número reduzido é: %.2f" , numero);
+
+
+    }
+}
