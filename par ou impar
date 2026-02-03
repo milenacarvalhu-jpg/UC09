@@ -1,0 +1,15 @@
+package Lista.Aula4;
+
+public class Parimpar {
+
+     public static void main(String[] args) {
+          int num;
+          num = 11;
+          if(num % 2 == 0){
+               System.out.println( "num é par" );
+          } else {
+               System.out.println("num é impar");
+          }
+        
+     }
+}
