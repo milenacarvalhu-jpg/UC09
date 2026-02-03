@@ -1,0 +1,23 @@
+package Lista.Aula4.iflist4;
+
+import java.util.Scanner;
+
+public class Idade {
+
+    public static void main(String[] args) {
+
+        int numero;
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Digite sua idade");
+        numero = in.nextInt();
+
+        if (numero < 18) {
+            System.out.println("ele é menor de idade");
+        } else {
+            System.out.println(" maior de idade");
+        }
+        in.close();
+
+    }
+}
