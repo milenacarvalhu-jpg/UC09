@@ -1,0 +1,29 @@
+package Lista.Aula4.iflist4;
+
+import java.util.Scanner;
+
+public class ComparadorSimples {
+    public static void main(String[] args) {
+
+        int NumeroA;
+        int NumeroB;
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Digite o numero A: ");
+        NumeroA = in.nextInt();
+        System.out.print("Digite o numero B: ");
+        NumeroB = in.nextInt();
+
+        if (NumeroA == NumeroB) {
+            System.out.print("Números iguais");
+        } else if (NumeroA > NumeroB) {
+            System.out.println("numero a é maior que o numero b");
+        } else {
+            System.out.println("numero a é menor que o numero b");
+
+        }
+        in.close();
+    }
+
+}
