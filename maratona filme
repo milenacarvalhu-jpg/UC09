@@ -1,0 +1,46 @@
+package Aula6.AulaFilmes;
+
+import java.util.Scanner;
+
+public class maratona {
+
+    public static Scanner inputs = new Scanner(System.in);
+
+    public static void main(String[] args) {
+
+        Cabecalho();
+        double total = CalcularTempoTotal();
+        String classificacao = Classificacao(total);
+
+        System.out.println("Tempo total: " + total + " horas");
+        System.out.println("Classificação: " + classificacao);
+    }
+
+    public static void Cabecalho() {
+        System.out.println("============================================");
+        System.out.println("--------------MaratonaFilmes----------------");
+        System.out.println("============================================");
+    }
+
+    public static double CalcularTempoTotal() {
+        System.out.println("Quantidade de filmes:");
+        int numFilmes = inputs.nextInt();
+
+        System.out.println("Duração média por filme:");
+        double time = inputs.nextDouble();
+
+        return numFilmes * time;
+    }
+
+    public static String Classificacao(double total) {
+        if (total <= 4) {
+            return "Maratona Leve";
+        } 
+        else if (total < 8) {
+            return "Maratona Moderada";
+        } 
+        else {
+            return "Maratona Épica!";
+        }
+    }
+}
